@@ -1,23 +1,27 @@
 {
   "name": "@grafikri/vue-middleware",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Middleware for Vue",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
+  "author": "Serhan Coşkun",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
     "prepare": "npm run build",
     "test": "jest",
+    "pretest": "npm run prepare",
+    "prepublish": "npm run test",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "nodemon": "^2.0.4",
-    "ts-jest": "^24.1.0",
     "typescript": "^4.0.2",
     "vue": "^2.6.12",
-    "vue-router": "^3.4.9"
+    "vue-router": "^3.4.9",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0"
   },
   "repository": {
     "type": "git",
@@ -40,6 +44,5 @@
     "router",
     "route"
   ],
-  "author": "",
   "license": "ISC"
 }
