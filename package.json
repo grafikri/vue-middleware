@@ -10,7 +10,7 @@
     "prepare": "npm run build",
     "test": "jest",
     "pretest": "npm run prepare",
-    "prepublish": "npm run pretest",
+    "prepublish": "npm run test",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
