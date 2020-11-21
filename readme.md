@@ -57,9 +57,9 @@ const routes = [
 ]
 ```
 
-### Injection custom object and store
+### Injecting custom object (recommended vuex store)
 
-You can inject vuex store
+You can inject any object
 
 ```js
 // main.js
@@ -86,9 +86,9 @@ export default ({ store, next }) => {
 }
 ```
 
-> There is a one important rule for chaining is that you must return `false` if you want to stop next middleware method.
+> There is one important rule for chaining that you must return `false` if you want to stop the next middleware method.
 
-### Definition multiple middleware
+### Defining multiple middlewares
 
 You can define more than one middleware methods that will be invoked respectively.
 
