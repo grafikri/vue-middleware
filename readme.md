@@ -14,9 +14,9 @@ $ npm i @grafikri/vue-middleware
 
 ### Usage in 3 steps
 
-#### 1. Register the module in main file
+#### 1. Register the module in the main file
 
-You can also inject any object to module to take it in middleware method(recomended vuex store, it will be shown below)
+You can also inject any object to a module to take it in middleware method(recommended vuex store, it will be mentioned below)
 
 ```js
 // main.js
@@ -44,7 +44,9 @@ export default ({ to, from, next }) => {
 }
 ```
 
-#### 3. Adjust middleware for any route
+> Mentioned params <code>to</code>, <code>from</code>, and <code>next</code> completely same with Vue Router [navigation guard params](https://router.vuejs.org/guide/advanced/navigation-guards.html#global-before-guards)
+
+#### 3. Adjust middleware for any route under meta key
 
 ```js
 // router/index.js
