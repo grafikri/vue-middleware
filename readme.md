@@ -1,4 +1,6 @@
-## Middleware for Vue
+# Middleware for Vue
+
+## Main features
 
 - Injecting custom object for middlewares
 - Adjusting multiple middleware rules
@@ -9,6 +11,8 @@
 ```bash
 $ npm i @grafikri/vue-middleware
 ```
+
+### Usage in 3 steps
 
 #### 1. Register the module in main file
 
