@@ -4,7 +4,8 @@ import router from './router'
 import store from './store'
 
 import middleware from '../../dist';
-router.beforeEach(middleware());
+
+router.beforeEach(middleware({ store }));
 
 Vue.config.productionTip = false
 
