@@ -524,3 +524,4 @@ types/
 .env
 package-lock.json
 locale/
+.vscode

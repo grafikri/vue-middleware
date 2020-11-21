@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "./types",
+    "outDir": "./dist",
+    "strict": true,
+    "target": "es6",
+    "allowJs": false,
+    "noImplicitAny": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+}
