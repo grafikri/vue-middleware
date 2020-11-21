@@ -23,7 +23,7 @@ import middleware from "@grafikri/vue-middleware"
 router.beforeEach(middleware())
 ```
 
-#### 2. Adjust middleware for any route
+#### 2. Specify logic
 
 You can put your middleware methods under any folder. There is no rule for this.
 
@@ -40,7 +40,7 @@ export default ({ to, from, next }) => {
 }
 ```
 
-#### 3. Specify logic
+#### 3. Adjust middleware for any route
 
 ```js
 // router/index.js
