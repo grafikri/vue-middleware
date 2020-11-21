@@ -1,8 +1,9 @@
 {
   "name": "@grafikri/vue-middleware",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Middleware for Vue",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
@@ -18,11 +19,27 @@
     "vue": "^2.6.12",
     "vue-router": "^3.4.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grafikri/vue-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grafikri/vue-middleware/issues"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
   },
-  "keywords": [],
+  "keywords": [
+    "middleware",
+    "vue",
+    "router",
+    "route"
+  ],
   "author": "",
   "license": "ISC"
 }
