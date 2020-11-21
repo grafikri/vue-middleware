@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/grafikri/vue-middleware.svg?branch=master)](https://travis-ci.org/grafikri/vue-middleware)
+[![install size](https://packagephobia.com/badge?p=@grafikri/vue-middleware)](https://packagephobia.com/result?p=@grafikri/vue-middleware)
+
 # Middleware for Vue
 
 ## Main features
