@@ -1,9 +1,10 @@
 {
   "name": "@grafikri/vue-middleware",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Middleware for Vue",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
+  "author": "Serhan Coşkun",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
@@ -43,6 +44,5 @@
     "router",
     "route"
   ],
-  "author": "",
   "license": "ISC"
 }
