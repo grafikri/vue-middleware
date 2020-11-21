@@ -1,6 +1,6 @@
 {
-  "name": "vueMiddleware",
-  "version": "1.0.0",
+  "name": "@grafikri/vue-middleware",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
